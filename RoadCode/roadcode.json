@@ -1,0 +1,25 @@
+{
+  "name": "BlackRoad-Cloud",
+  "org": "BlackRoad-OS-Inc",
+  "category": "cloud",
+  "title": "BlackRoad Cloud",
+  "deploy": {
+    "target": "gematria",
+    "path": "/var/www/blackroad/BlackRoad-Cloud",
+    "ssl": "auto",
+    "cdn": true
+  },
+  "mirrors": {
+    "gitea": "https://git.blackroad.io/BlackRoad-OS-Inc/BlackRoad-Cloud",
+    "github": "https://github.com/BlackRoad-OS-Inc/BlackRoad-Cloud"
+  },
+  "ci": {
+    "on_push": ["build", "deploy"],
+    "on_pr": ["lint", "audit"]
+  },
+  "monitoring": {
+    "uptime": true,
+    "analytics": "roadanalytics",
+    "alerts": "nats"
+  }
+}
