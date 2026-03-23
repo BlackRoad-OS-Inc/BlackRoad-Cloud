@@ -1,31 +1,20 @@
-# BlackRoad Cloud
+# BlackRoad-Cloud
 
-> BlackRoad Cloud — sovereign hosting, edge computing, CDN, deployment
+BlackRoad Cloud — sovereign hosting, edge computing, CDN, deployment. Proprietary BlackRoad OS, Inc.
 
-## About
-**BlackRoad Cloud** is part of the [BlackRoad OS](https://blackroad.io) ecosystem — sovereign, privacy-first infrastructure replacing fragmented digital tools.
+## Organization
 
-**Vertical**: Cloud
-**Company**: BlackRoad OS, Inc. (Delaware C-Corp)
-**Founded**: November 17, 2025
+**BlackRoad-OS-Inc** — Corporate root — all IP, strategy, and governance
 
-## Products
-RoadHost
-- Edge Deploy
-- Sovereign CDN
-- Container Runtime
-- Object Storage
+## BlackRoad OS
 
-## Development
-See [RoadCode/](./RoadCode/) for workspace, TODOs, and roadmap.
+BlackRoad OS is a distributed AI operating system — 20 domains, 668 repositories, 1,000 AI agents, and sovereign infrastructure running on Raspberry Pis and Hailo-8 accelerators. No cloud dependency.
 
-## Infrastructure
-- **Served from**: Gematria (Caddy TLS) + Pi fleet (5 nodes)
-- **DNS**: Cloudflare → Gematria → self-hosted
-- **Stack**: Sovereign — no vendor lock-in
+- [blackroad.io](https://blackroad.io) — Main platform
+- [docs.blackroad.io](https://docs.blackroad.io) — Documentation
+- [GitHub](https://github.com/BlackRoad-OS-Inc) — This organization
 
-## License
-**PROPRIETARY** — BlackRoad OS, Inc. All rights reserved. NOT open source.
+**Language:** HTML
 
----
-*BlackRoad OS — Remember the Road. Pave Tomorrow.*
+
+*© 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
